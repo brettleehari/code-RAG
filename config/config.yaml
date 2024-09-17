@@ -1,0 +1,30 @@
+# OpenAI LLM details
+openai_llm:
+  api_key: add_as_env_var
+  model: gpt-3.5-turbo
+  temperature: 0.8
+
+# GitHub repository information
+repository:
+  owner: pitchdarkdata
+  name: InfluxDays2021_Demo
+  token: add_as_env_var
+
+# Parsing options
+options:
+  include_files:
+    - file1.txt
+    - file2.py
+  exclude_files:
+    - file3.md
+  include_folders:
+    - folder1
+    - folder2
+  exclude_folders:
+    - folder3
+  include_file_extensions:
+    - .txt
+    - .py
+  exclude_file_extensions:
+
+
